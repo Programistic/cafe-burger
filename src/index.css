@@ -1,0 +1,19 @@
+@import url(./fonts/font-iceland.css);
+@import url(./fonts/font-jet-brains-mono.css);
+
+.page {
+  display: grid;
+  overflow: hidden;
+}
+
+.main {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+.modal {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  place-self: center;
+  z-index: 1;
+}

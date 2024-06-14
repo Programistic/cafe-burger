@@ -1,0 +1,23 @@
+.cardsOrderList {
+  grid-column: 2 / 4;
+  grid-row: 1 / 4;
+  block-size: 80vh;
+  inline-size: calc(100% - 20px);
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.cardsOrderList::-webkit-scrollbar {
+  inline-size: .5rem;
+}
+
+.cardsOrderList::-webkit-scrollbar-thumb {
+  background-color: #8585ad;
+  border: 3px solid #2F2F37;
+  border-radius: 6px;
+}
+
+.cardsOrderList::-webkit-scrollbar-track {
+  background-color: #2f2f37;
+}

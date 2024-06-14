@@ -1,0 +1,25 @@
+.modalContainer {
+  position: relative;
+  box-sizing: border-box;
+  inline-size: 720px;
+  padding: 60px 40px;
+  border-radius: 40px;
+  background-color: #1c1c21;
+}
+
+.button {
+  position: absolute;
+  inset-inline-end: 40px;
+  inline-size: 24px;
+  block-size: 24px;
+  align-self: flex-end;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  transition: opacity .3s ease;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .7;
+}

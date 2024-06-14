@@ -1,0 +1,69 @@
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem 3.25rem 0;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  min-inline-size: 580px;
+  inline-size: max-content;
+  max-block-size: calc(100vh - 370px);
+  box-sizing: border-box;
+  border: 2px solid #8585ad;
+  border-radius: 60px;
+  transition: border .3s ease;
+  overflow-y: hidden;
+}
+
+.componentsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 10px 20px 10px 0;
+  padding: 0 16px 0 0;
+  max-block-size: calc(100vh - 562px);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.componentsList::-webkit-scrollbar {
+  inline-size: .5rem;
+}
+
+.componentsList::-webkit-scrollbar-thumb {
+  background-color: #8585ad;
+  border: 3px solid #2F2F37;
+  border-radius: 6px;
+}
+
+.componentsList::-webkit-scrollbar-track {
+  background-color: #2f2f37;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-start: 2.5rem;
+  padding: 0 1rem;
+}
+
+.productPrice {
+  display: block;
+  margin-inline-end: .5rem;
+  font: 400 3rem/1 'Iceland', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.currencyIconLarge {
+  inline-size: 33px;
+  block-size: 33px;
+  margin-inline-end: 2.5rem;
+  background-image: url('../../images/currency-icon-large.svg');
+  background-repeat: no-repeat;
+}

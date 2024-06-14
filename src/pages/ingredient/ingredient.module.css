@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardTitle {
+  margin: 0;
+  align-self: center;
+  font: 700 2.25rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.image {
+  inline-size: 480px;
+  block-size: 240px;
+}
+
+.ingredientName {
+  margin: 1rem 0 2rem;
+  font: 700 1.5rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.list {
+  display: flex;
+  column-gap: 20px;
+  margin: 0;
+  padding: 0;
+  color: #8585ad;
+  list-style: none;
+}
+
+.listItem {
+  margin: 0;
+}
+
+.itemHeading {
+  margin: 0 0 .5rem;
+  font: 400 1rem/1 'JetBrainsMono', 'Inter', sans-serif;
+}
+
+.itemValue {
+  display: block;
+  text-align: center;
+  font: 400 1.75rem/1 'Iceland', 'Inter', sans-serif;
+}
