@@ -1,4 +1,4 @@
-### Multipage website "Stellar-Burger"
+### Multipage website "Cafe-Burger"
 
 #### About
 It's my training project from Yandex.Praktikum.
