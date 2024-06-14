@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import { useAppSelector } from "../../hooks/hooks";
 import { shallowEqual } from "react-redux";
 import { TIngredient } from "../../types/ingredient";
-import uuid from "react-uuid";
 import { useMemo } from "react";
 import { getOrder } from "../../services/actions/actions";
 import { useAppDispatch } from "../../hooks/hooks";
@@ -48,7 +47,7 @@ const OrderInfo = () => {
     ingredientInfoList = items.map((item: TIngredient) => {
       return (
         <IngredientInfo
-          key={uuid()}
+          key={item._id}
           id={item._id}
           count={item.count}
         />

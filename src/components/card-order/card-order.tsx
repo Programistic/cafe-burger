@@ -5,7 +5,6 @@ import { FormattedDate } from '@ya.praktikum/react-developer-burger-ui-component
 import { useAppSelector } from '../../hooks/hooks';
 import { shallowEqual } from 'react-redux';
 import { TIngredient } from '../../types/ingredient';
-import uuid from 'react-uuid';
 import { TOrder } from '../../types/order';
 import styles from './card-order.module.css';
 
@@ -45,15 +44,15 @@ const CardOrder: FC<ICardOrderProps> = ({ order, path }) => {
     statusOrder = 'Отменён';
   };
 
-  let index = 0;
+  let ingIndex = 0;
 
-  const ingredientPreviewList = ingredients.map(id => {
+  const ingredientPreviewList = ingredients.map((id, index) => {
     if (index < 6) {
       return (
         <IngredientPreview
           id={id}
-          key={uuid()}
-          index={index++}
+          key={index}
+          index={ingIndex++}
           count={ingredients.length-1}
         />
       )
