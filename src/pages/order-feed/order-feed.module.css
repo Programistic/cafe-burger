@@ -1,0 +1,110 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content 1fr;
+  column-gap: 40px;
+  max-inline-size: 1240px;
+  margin: 0 auto;
+  padding: 0 0 40px;
+}
+
+.title {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  margin: 40px 0 20px;
+  padding: 0;
+  max-inline-size: max-content;
+  font: 700 2.25rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.cardsOrderList {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  inline-size: 100%;
+  max-inline-size: 600px;
+  block-size: 80vh;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.cardsOrderList::-webkit-scrollbar {
+  inline-size: .5rem;
+}
+
+.cardsOrderList::-webkit-scrollbar-thumb {
+  background-color: #8585ad;
+  border: 3px solid #2F2F37;
+  border-radius: 6px;
+}
+
+.cardsOrderList::-webkit-scrollbar-track {
+  background-color: #2f2f37;
+}
+
+.orderInfo {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  inline-size: 100%;
+  max-inline-size: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.orderStatus {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.25rem;
+}
+
+.heading {
+  margin: 0;
+  padding: 0;
+  font: 700 1.5rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.orderNumberList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 9rem;
+  max-inline-size: 12rem;
+  max-block-size: 24rem;
+  margin: 1.5rem 0 0;
+  box-sizing: border-box;
+  padding: 0 7.2rem .5rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.quantityHeading {
+  margin: 3.75rem 0 0;
+  padding: 0;
+  font: 700 1.5rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.orderQuantity {
+  margin: 0;
+  font: 400 9rem/1 'Iceland', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.orderNumber {
+  display: block;
+  font: 400 1.75rem/1 'Iceland', 'Inter', sans-serif;
+  --color: #f2f2f3;
+  color: var(--color);
+  margin-block-end: .5rem;
+}
+
+.outlet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 100%;
+  block-size: 100%;
+}

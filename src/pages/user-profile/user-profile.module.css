@@ -1,0 +1,21 @@
+.innerContainer {
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  inline-size: min-content;
+  min-block-size: 320px;
+}
+
+.buttonContainer {
+  align-self: flex-end;
+}

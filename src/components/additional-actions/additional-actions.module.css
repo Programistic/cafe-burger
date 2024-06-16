@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-self: center;
+  column-gap: .5rem;
+  margin: 0 0 1rem;
+  font: 400 1rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #8585ad;
+}
+
+.link {
+  text-decoration: none;
+  color: #4c4cff;
+  transition: opacity .3s ease;
+}
+
+.link:hover {
+  opacity: .8;
+}

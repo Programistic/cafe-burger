@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orderNumber {
+  display: block;
+  margin-block-start: 3.75rem;
+  min-block-size: 7.2rem;
+  font: 400 9rem/.8 'Iceland', 'Inter', sans-serif;
+  color: #f2f2f3;
+  text-shadow: 0px 4px 32px rgba(51, 51, 255, 0.5);
+}
+
+.text {
+  margin: 2rem 0 0;
+  padding: 0;
+  font: 700 1.5rem/1.25 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.button {
+  margin: 3.75rem 0;
+  padding: 0;
+  inline-size: 120px;
+  block-size: 120px;
+  border-color: transparent;
+  border-radius: 50%;
+  background-image: url(../../images/done.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.button:hover {
+  opacity: .7;
+}
+
+.message {
+  margin: 0;
+  font: 400 1rem/1.5 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3
+}
+
+.message:last-of-type {
+  margin: .5rem 0 3.75rem;
+  color: #8585ad;
+}

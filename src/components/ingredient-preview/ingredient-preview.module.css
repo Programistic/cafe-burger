@@ -1,0 +1,45 @@
+.ingredient {
+  display: grid;
+  inline-size: 64px;
+  aspect-ratio: 1;
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background:
+    linear-gradient(#1c1c21, #1c1c21) padding-box,
+    linear-gradient(70deg, #801ab2, #4c4cff) border-box;
+  list-style: none;
+  --position: 0;
+  z-index: var(--position);
+}
+
+.image {
+  display: block;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  inline-size: 100%;
+  aspect-ratio: 1;
+  box-sizing: border-box;
+  padding: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.count {
+  display: block;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  align-self: center;
+  justify-self: center;
+  font: 400 1rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+  z-index: 1;
+}
+
+.overlay {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  border-radius: 50%;
+  background-color: #1c1c21;
+  opacity: .6;
+}

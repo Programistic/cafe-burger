@@ -1,0 +1,8 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Iceland';
+  font-weight: 400;
+  src: local('Iceland'),
+       local('Iceland-Regular'),
+       url(./Iceland-Regular.ttf) format('ttf');
+}

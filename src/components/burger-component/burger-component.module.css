@@ -1,0 +1,18 @@
+.componentsListItem {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: .5rem;
+  align-items: center;
+}
+
+.buttonDragIcon {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.buttonDragIcon:hover {
+  opacity: .7;
+}

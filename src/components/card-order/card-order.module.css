@@ -1,0 +1,79 @@
+.orderLink {
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  inline-size: 100%;
+  box-sizing: border-box;
+  margin: 0 0 1.5rem;
+  padding: 1.5rem;
+  background-color: #1c1c21;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  transition: border .3s ease;
+  list-style: none;
+  z-index: -500;
+}
+
+.orderNumber {
+  font: 400 1.75rem/1 'Iceland', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.orderDate {
+  font: 400 1rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #8585ad;
+}
+
+.orderName {
+  margin: 1.5rem 0 .5rem;
+  font: 700 1.5rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.orderStatus {
+  display: block;
+  margin-block-end: 1.5rem;
+  font: 400 1rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  --color: #f2f2f3;
+  color: var(--color);
+}
+
+.card:hover {
+  border: 2px solid #4c4cff;
+  cursor: pointer;
+}
+
+.ingredientsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 48px);
+  grid-auto-flow: column;
+  margin: 0;
+  padding: 0;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.productPrice {
+  margin-inline-end: .5rem;
+  font: 400 1.75rem/1 'Iceland', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.currencyIconLarge {
+  inline-size: 22px;
+  block-size: 22px;
+  background-image: url('../../images/currency-icon-small.svg');
+  background-repeat: no-repeat;
+}

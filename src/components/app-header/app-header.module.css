@@ -1,0 +1,53 @@
+.header {
+  margin: 0;
+  padding: 1rem 0;
+  background-color: #1c1c21;
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  max-inline-size: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  block-size: 50px;
+  align-self: center;
+  cursor: default;
+  transition: opacity .3s ease-in;
+}
+
+.logo:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.profileLink {
+  justify-self: end;
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 8px;
+  margin: 0;
+  padding: 16px 20px;
+  inline-size: min-content;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 40px; 
+  transition: border-color .3s ease;
+}
+
+.profileLink:hover {
+  border-color: #4c4cff;
+}
+
+.profileLinkText {
+  align-self: center;
+  font: 400 1rem/1 'JetBrainsMono', "Inter", sans-serif;
+  color: #8585ad;
+}
+
+.active {
+  color: #f2f2f3;
+}

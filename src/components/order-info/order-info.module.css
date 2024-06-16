@@ -1,0 +1,110 @@
+.container {
+  inline-size: 40rem;
+  block-size: 38.75rem;
+}
+
+.orderNumber {
+  display: block;
+  margin-block-end: 2.5rem;
+  font: 400 1.75rem/1 'Iceland', 'Inter', sans-serif;
+  color: #f2f2f3;
+  text-align: center;
+}
+
+.orderName {
+  margin-block-end: .75rem;
+  font: 700 1.5rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.orderStatus {
+  display: block;
+  margin-block-end: 3.75rem;
+  font: 400 1rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  --color: #f2f2f3;
+  color: var(--color);
+}
+
+.orderContentHeading {
+  margin-block-end: 1.5rem;
+  font: 700 1.5rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.ingredientsList {
+  max-block-size: 19.5rem;
+  block-size: 100%;
+  margin-block-end: 2.5rem;
+  box-sizing: border-box;
+  padding: 0 1.5rem 0 0;
+  list-style: none;
+  overflow-y: auto;
+}
+
+.ingredientsListItem {
+  display: grid;
+  grid-template-columns: min-content 1fr max-content;
+  margin-block-end: 1rem;
+  align-items: center;
+}
+
+.imageContainer {
+  inline-size: 64px;
+  aspect-ratio: 1;
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background:
+    linear-gradient(#1c1c21, #1c1c21) padding-box,
+    linear-gradient(70deg, #801ab2, #4c4cff) border-box;
+}
+
+.image {
+  display: block;
+  inline-size: 100%;
+  aspect-ratio: 1;
+  box-sizing: border-box;
+  padding: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ingredientName {
+  flex-grow: 2;
+  max-inline-size: 20rem;
+  margin-inline-start: 1rem;
+  font: 400 1rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderDate {
+  font: 400 1rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #8585ad;
+}
+
+.priceContainer {
+  margin-inline-start: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.productPrice {
+  display: block;
+  min-inline-size: 1.75rem;
+  margin-inline-end: .5rem;
+  font: 400 1.75rem/1 'Iceland', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
+
+.currencyIconLarge {
+  inline-size: 22px;
+  block-size: 22px;
+  background-image: url('../../images/currency-icon-small.svg');
+  background-repeat: no-repeat;
+}

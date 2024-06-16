@@ -1,0 +1,26 @@
+.main {
+  flex-grow: 1;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #131316;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content 1fr;
+  column-gap: 40px;
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-inline-size: 1240px;
+}
+
+.title {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  margin: 40px 0 20px;
+  padding: 0;
+  max-inline-size: max-content;
+  font: 700 2.25rem/1 'JetBrainsMono', 'Inter', sans-serif;
+  color: #f2f2f3;
+}
