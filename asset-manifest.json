@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.295f2ed4.css",
-    "main.js": "./static/js/main.d2babf13.js",
+    "main.css": "./static/css/main.6605c982.css",
+    "main.js": "./static/js/main.cd7eaed4.js",
     "static/media/JetBrainsMono-Regular.ttf": "./static/media/JetBrainsMono-Regular.3eb7f2ebfc6706e5e704.ttf",
     "static/media/JetBrainsMono-Bold.ttf": "./static/media/JetBrainsMono-Bold.22de78038079f5b8c333.ttf",
     "static/media/JetBrainsMono-Bold.woff": "./static/media/JetBrainsMono-Bold.3914674f1cb2335acf26.woff",
@@ -15,11 +15,11 @@
     "static/media/currency-icon-large.svg": "./static/media/currency-icon-large.c76f6647af73f2e14862.svg",
     "static/media/currency-icon-small.svg": "./static/media/currency-icon-small.7fe2d4a280bdb54aed85.svg",
     "index.html": "./index.html",
-    "main.295f2ed4.css.map": "./static/css/main.295f2ed4.css.map",
-    "main.d2babf13.js.map": "./static/js/main.d2babf13.js.map"
+    "main.6605c982.css.map": "./static/css/main.6605c982.css.map",
+    "main.cd7eaed4.js.map": "./static/js/main.cd7eaed4.js.map"
   },
   "entrypoints": [
-    "static/css/main.295f2ed4.css",
-    "static/js/main.d2babf13.js"
+    "static/css/main.6605c982.css",
+    "static/js/main.cd7eaed4.js"
   ]
 }
