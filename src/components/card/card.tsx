@@ -22,7 +22,7 @@ const Card = ({ card }: TCardProps) => {
   });
 
   return (
-    <Link to={`/ingredients/${card._id}`} key={card._id} state={{background: location}} ref={dragRef}>
+    <Link className={styles.link} to={`/ingredients/${card._id}`} key={card._id} state={{background: location}} ref={dragRef}>
       <li className={styles.card}>
         <img src={card.image} className={styles.image} alt={card.name} />
         { card.count > 0 && <Counter count={card.count} size={'default'} extraClass={'m-2'} /> }
